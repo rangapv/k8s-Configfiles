@@ -1,1 +1,3 @@
+
+#sudo vi /etc/systemd/system/kubelet.service.d/10-kubeadm.conf
 --cloud-provider=external --cloud-config=/etc/kubernetes/aws.conf
